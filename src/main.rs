@@ -12,12 +12,12 @@ fn main() {
         &format!("Hi {}! Rent is ${}.", "Dennis", secondary_amount),
     );
 
-    send_sms_via_email::send_sms_via_email(
-        "Dennis",
-        &utils::get_var("DENNIS_NUMBER"),
-        &format!("Hi {}! Rent is ${}.", "Dennis", secondary_amount),
-        &utils::get_gateway("Google Fi"),
-    );
+    // send_sms_via_email::send_sms_via_email(
+    //     "Dennis",
+    //     &utils::get_var("DENNIS_NUMBER"),
+    //     &format!("Hi {}! Rent is ${}.", "Dennis", secondary_amount),
+    //     &utils::get_gateway("Google Fi"),
+    // );
 
     // send_sms_via_email(
     //     "Ryan",
